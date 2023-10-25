@@ -21,7 +21,7 @@ export default {
   },
   watch: {
     $route() {
-      this.getBreadcrumb()
+      this.getBreadcrumb() //面包屑导航是一种用于网站和应用程序的用户界面元素，它通常显示用户在网站或应用程序中的导航路径
     }
   },
   methods: {
